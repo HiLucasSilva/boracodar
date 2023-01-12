@@ -1,0 +1,161 @@
+@font-face {
+    font-family: Lato;
+    src: url('Lato.ttf');}
+
+@font-face {
+    font-family:'Crimson Pro';
+    src: url('Crimson Pro.ttf');}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media (min-width: 10px) and (max-width: 720px) {
+    .produto {
+      flex-direction: column !important;
+    }
+  }
+  
+body {
+    background-color: #D9CDF7;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: row;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 25px;
+    gap: 24px;
+  }
+
+div{
+    flex-direction: column;
+    display: flex; 
+    gap: 12px;
+}
+
+img{
+    position: relative;
+    display: flex;
+    max-width: 420px;
+    width: 100%;
+    height: auto;
+}
+
+#girar.active img {
+    width: 16px;
+}
+
+.produto {
+    display: flex;
+    flex-direction: column;
+}
+
+.produto img{
+    display: flex;
+    position: relative;
+}
+
+.produto button {
+    width: 100%;
+    height: 48px;
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    background-color: #D9CDF7;
+    border-radius: 50%;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.produto button img {
+    max-width: 32px;
+  }
+  
+.produto  button:hover {
+    background-color: #a396c4;
+  }
+  
+.produto button:active {
+    background-color: #706785;
+  }
+
+
+.cod {
+    color: #271A45;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 10px;
+
+    opacity: 0.80;
+
+}
+
+.valor {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: #271A45;
+    opacity: 0.80;
+}
+
+p{
+    color: #271A45;
+}
+
+h1{
+    color: #271A45;
+
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: auto;
+    line-height: 100%;
+}
+
+button {
+    background-color:#D9CDF7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    margin-top: 8px;
+    
+    width: fit-content;
+    height: 35px;
+
+    border: 1px solid #271A45;
+    border-radius: 16px;
+
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.cesta:hover {
+    background-color: #a396c4;
+}
+  
+.cesta:active {
+    background-color: #706785;
+}
+
+.cesta{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 16px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    color: #271A45;
+}
