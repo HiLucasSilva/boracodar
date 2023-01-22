@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+/*-------------------------------Titulo----------------------------------------*/
+
+h1 {
+    width: 233px;
+    height: 32px;
+
+    margin: 0 0 5px 0;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 32px;
+    line-height: 100%;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.2059px;
+    line-height: 23px;
+
+
+    width: 808px;
+    height: 46px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    opacity: 67%;
+}
+
+/*------------------------LADO DA ESQUERDA -------------------------*/
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 0px 32px 3px;
+    gap: 8px;
+
+    position: absolute;
+    width: 811px;
+    height: 118px;
+    left: 77px;
+    top: 107px;
+
+    font-family: 'Inter';
+}
+
+.itens-esq {
+    display: inline-block;
+    vertical-align: top;
+
+    margin: 20px 45px 20px 45px;
+}
+
+.box-esq {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+    position: absolute;
+    width: 958px;
+    height: 576px;
+    left: 77px;
+    top: 261px;
+
+    background: #1c162c;
+    border-radius: 8px;
+}
+
+.box-title-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.barra-top {
+    display: inline-block;
+    padding: 20px 60px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.box-title-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.barra-left {
+    padding: 22px 15px;
+    text-align: center;
+    margin: 0 0 25px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.box-buttom{
+    background-color: #0B0911;
+    width: 870px;
+    height: 515px;
+    padding: 35px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
+.primary-button,
+.second-button,
+.tertiary-button,
+.cursor-button {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: center;
+    vertical-align: top;
+    width: 225px;
+}
+
+.cursor-button {
+    width: 105px;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-end;
+}
+
+.img-button {
+    text-align: right;
+    width: 50px;
+}
+
+.primary,
+.second,
+.tertiary {
+    background-color: #8257E5;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    border-radius: 25px;
+   
+    outline: none;
+    border: none;
+}
+
+/*------------------------LADO DA DIREITA-------------------------*/
+
+.itens-dir {
+    position: absolute;
+    width: 406px;
+    height: 947px;
+    left: 1111px;
+    top: 0px;
+
+    background: #130F1E;
+}
+
+.itens-barra-dir {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 318px;
+    height: 86px;
+    left: 44px;
+    top: 107px;
+}
+
+.title-dir {
+    width: 249px;
+    height: 32px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+}
+
+.desc-dir {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 9.6px;
+
+    width: 318px;
+    height: 46px;
+}
+
+.buttons-dir {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+
+    position: absolute;
+    width: 317px;
+    height: 208px;
+    left: 45px;
+    top: 261px;
+}
+
+.button1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 8px;
+
+    width: 317px;
+    height: 48px;
+
+    color: white;
+    background: #8257E5;
+    border-radius: 24px;
+}
+
+.button1:hover {
+    background-color: #9674E5;
+}
+
+.button2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 8px;
+
+    width: 317px;
+    height: 48px;
+
+    color: white;
+    background: #3C3748;
+    opacity: 0.56;
+    border-color: transparent;
+    border-radius: 24px;
+
+    cursor: not-allowed;
+}
+
+.button3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 8px;
+
+    width: 317px;
+    height: 48px;
+
+    background-color: transparent;
+    border-radius: 24px;
+    border-color: transparent;
+    color: white;
+
+    cursor: move;
+}
+
+.img-dir {
+    margin: 0 5px 0 0;
+}
+
+/*------------------------------CONFIG EXTRA---------------------------------*/
+.focus {
+    border: 2px solid white;
+}
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.load {
+    cursor: progress;
+}
+
+.move {
+    cursor: move;
+}
+
+.rotate {
+    animation: rotateImage 1s infinite;
+}
+
+.hover-primary {
+    background-color: #9674E5;
+}
+
+.hover-secundary {
+    background-color: #6a617f;
+}
+
+.secundary{
+    background-color: #3C3748;
+}
+
+.tertiary {
+    background-color: transparent;
+}
+
+.active {
+    cursor: progress;
+    border: 2px solid white;
+}
+
+.activeCursor {
+    cursor: progress;
+}
+
+@keyframes rotateImage {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+@media (max-width: 1470px) {
+    .itens-dir {
+        width: 350px;
+    }
+}
+
+@media (max-width: 1370px) {
+    .itens-dir {
+        position: relative;
+        width: max-content;
+        width: 960px;
+        height: fit-content;
+        border-radius: 15px;
+        margin: 10px;
+    }
+
+    .desc-dir {
+        width: fit-content;
+    }
+
+    .itens-esq {
+        margin: 10px;
+    }
+}
