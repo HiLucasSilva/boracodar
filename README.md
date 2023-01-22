@@ -17,13 +17,12 @@
             <tr>
                 <td>02</td>
                 <td>Card Produto</td>
-                <td><a href="02">🔗</a></td>
+                <td><a href="desafio 02 card produto">🔗</a></td>
             </tr>
         </tbody>
             <tr>
                 <td>03</td>
                 <td>Buttons and Cursors</td>
-                <td><a href="03">🔗</a></td>
+                <td><a href="desafio 03 button and cursors">🔗</a></td>
             </tr>
-        
     </table>
