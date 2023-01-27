@@ -25,4 +25,9 @@
                 <td>Buttons and Cursors</td>
                 <td><a href="desafio 03 button and cursors">🔗</a></td>
             </tr>
+            <tr>
+                <td>04</td>
+                <td>Chat</td>
+                <td><a href="desafio 04 chat">🔗</a></td>
+            </tr>
     </table>
