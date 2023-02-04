@@ -30,4 +30,9 @@
                 <td>Chat</td>
                 <td><a href="desafio 04 chat">🔗</a></td>
             </tr>
+            <tr>
+                <td>05</td>
+                <td>Calculadora</td>
+                <td><a href="desafio 05 calculadora">🔗</a></td>
+            </tr>
     </table>
