@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora - Desafio 05</title>
+</head>
+<body>
+
+    <main>
+
+        <section id="box_princ">
+
+          <div class="box_result">
+
+            <input type="text" disabled class="pvCalc">
+
+            <div class="resulCalc">
+
+              <span><img src="img/config.svg" alt="Igual"></span>
+
+              <input type="text" disabled class="result">
+
+            </div>
+
+          </div>
+
+          <div class="teclado"> 
+
+            <button class="button" onclick="del()">CE</button>
+
+            <button class="button" onclick="clr()">C</button>
+
+            <button class="button" onclick="calculate('%')"><img src="img/percent.svg" alt="Resto da Divisão"></button>
+
+            <button class="button operac" onclick="calculate('/')"><img src="img/Divisao.svg" alt="Divisão"></button>
+
+            <button class="button number" onclick="calculate(7)">7</button>
+
+            <button class="button number" onclick="calculate(8)">8</button>
+
+            <button class="button number" onclick="calculate(9)">9</button>
+
+            <button class="button operac" onclick="calculate('*')"><img src="img/multiplicacao.svg" alt="Sinal da Multiplicação"></button>
+
+            <button class="button number" onclick="calculate(4)">4</button>
+
+            <button class="button number" onclick="calculate(5)">5</button>
+
+            <button class="button number" onclick="calculate(6)">6</button>
+
+
+            <button class="button operac" onclick="calculate('-')"><img src="img/subtracao.svg" alt="Sinal da Subtração"></button>
+
+            <button class="button number" onclick="calculate(1)">1</button>
+
+            <button class="button number" onclick="calculate(2)">2</button>
+
+            <button class="button number" onclick="calculate(3)">3</button>
+
+            <button class="button operac" onclick="calculate('+')"><img src="img/adicao.svg" alt="Sinal da Soma"></button>
+
+            <button class="button" onclick="round()"><img src="img/PlusMinus.svg" alt="Mais ou menos"></button>
+
+            <button class="button number" onclick="calculate(0)">0</button>
+
+            <button class="button" onclick="calculate('.')">,</button>
+
+            <button class="button operac" onclick="result()"><img src="img/igualdade.svg" alt="Sinal de Igual"></button>
+
+          </div>
+        </section>
+      </main>
+      <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+body, main {
+    background: linear-gradient(180deg, #807ECE 0%, #8E7ECE 100%);
+
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    place-items: center;
+
+    font-family: "Rubik", sans-serif;
+}
+
+#box_princ {
+    background: #2d2a37;
+
+    padding: 54px 32px 0px 32px;
+    width: 346px;
+    height: 566px;
+    border-radius: 48px;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 188px 52px rgba(0, 0, 0, 0.01), 0px 120px 48px rgba(0, 0, 0, 0.04), 0px 68px 41px rgba(0, 0, 0, 0.15), 0px 30px 30px rgba(0, 0, 0, 0.26), 0px 8px 17px rgba(0, 0, 0, 0.29), inset 0px 6px 8px rgba(255, 255, 255, 0.1), inset 0px -4px 5px rgba(0, 0, 0, 0.22);
+}
+
+#box_princ 
+.box_result {
+    padding: 0px 22px 0px 18px;
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    margin-bottom: 26px;
+}
+
+#box_princ 
+.box_result 
+.pvCalc {
+    text-align: right;
+    font-size: 2rem;
+    color: #6b6b6b;
+    height: 28px;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+}
+
+#box_princ 
+.box_result 
+.resulCalc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+#box_princ 
+.box_result 
+.resulCalc 
+.result {
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    text-align: right;
+    font-size: 3.6rem;
+    color: #ebebeb;
+}
+
+#box_princ 
+.teclado {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 12px;
+    width: 100%;
+}
+
+#box_princ 
+.teclado
+.button {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    box-shadow: 0px 11px 7px rgba(0, 0, 0, 0.01), 0px 7px 7px rgba(0, 0, 0, 0.04), 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.26), 0px 0px 2px rgba(0, 0, 0, 0.29), inset 0px 2px 3px rgba(255, 255, 255, 0.06);
+    color: #ebebeb;
+    font-size: 2.4rem;
+    transition:1s all;
+}
+
+#box_princ 
+.teclado
+.button:hover{
+    cursor: pointer;
+    color: #ebebeb;
+    background: #2d2a37;
+}
+
+#box_princ 
+.teclado
+.button:first-child{
+    color: #975DFA;;
+}
+
+#box_princ 
+.teclado
+.operac {
+    background: #975dfa;
+}
+
+#box_princ 
+.teclado
+.operac:first-child {
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.15) 0%,
+      rgba(255, 255, 255, 0.05) 100%
+    ),
+    #7f45e2;
+}
+
+
+@media (max-width:364px) {
+    #calc{
+      transform: scale(.6);
+    }
+  }
