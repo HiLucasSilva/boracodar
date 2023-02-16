@@ -35,10 +35,10 @@
                 <td>Calculadora</td>
                 <td><a href="desafio 05 calculadora">🔗</a></td>
             </tr>
-            
              <tr>
                 <td>06</td>
                 <td>Cartao de Embarque</td>
                 <td><a href="desafio 06 cartao embarque">🔗</a></td>
             </tr>
+            
     </table>
