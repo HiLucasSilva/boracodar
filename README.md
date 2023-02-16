@@ -39,6 +39,5 @@
                 <td>06</td>
                 <td>Cartao de Embarque</td>
                 <td><a href="desafio 06 cartao embarque">🔗</a></td>
-            </tr>
-            
+            </tr>     
     </table>
