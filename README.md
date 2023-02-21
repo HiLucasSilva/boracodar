@@ -39,5 +39,10 @@
                 <td>06</td>
                 <td>Cartao de Embarque</td>
                 <td><a href="desafio 06 cartao embarque">🔗</a></td>
+            </tr>
+            <tr>
+                <td>07</td>
+                <td>Site Carnavalesco</td>
+                <td><a href="desafio 07 site carnaval">🔗</a></td>
             </tr>     
     </table>
