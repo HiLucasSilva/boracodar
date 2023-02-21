@@ -3,9 +3,9 @@
 <table>
         <thead>
             <tr>
-                <th>#</th>
-                <th>name</th>
-                <th>view</th>
+                <th>DESAFIO</th>
+                <th>NAME</th>
+                <th>VIEW</th>
             </tr>
         </thead>
         <tbody>
