@@ -44,5 +44,10 @@
                 <td>07</td>
                 <td>Site Carnavalesco</td>
                 <td><a href="desafio 07 site carnaval">🔗</a></td>
+            </tr>
+            <tr>
+                <td>08</td>
+                <td>Dashboard</td>
+                <td><a href="desafio 08 dashboard">🔗</a></td>
             </tr>     
     </table>
