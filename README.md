@@ -52,7 +52,7 @@
             </tr>
             <tr>
                 <td>09</td>
-                <td>Conbersor de Moedas</td>
+                <td>Conversor de Moedas</td>
                 <td><a href="desafio 09 conversor de moeda">🔗</a></td>
             </tr>   
     </table>
